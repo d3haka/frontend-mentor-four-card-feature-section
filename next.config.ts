@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-const repo = "four-card-feature-section-master";
+const repo = "d3haka.github.io/frontend-mentor-four-card-feature-section";
 const assetPrefix = `/${repo}/`;
 const basePath = `/${repo}`;
 
