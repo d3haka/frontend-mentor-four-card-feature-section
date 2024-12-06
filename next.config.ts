@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   // assetPrefix: assetPrefix,
   basePath,
+  images: {
+    path: "/frontend-mentor-four-card-feature-section",
+  },
 };
 
 export default nextConfig;
