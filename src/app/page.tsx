@@ -9,7 +9,7 @@ export default function Home() {
         </div>
         <Image
           className="dark:invert"
-          src="/next.svg"
+          src="/frontend-mentor-four-card-feature-section/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
@@ -35,7 +35,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/vercel.svg"
+              src="/frontend-mentor-four-card-feature-section/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -61,7 +61,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/frontend-mentor-four-card-feature-section/file.svg"
             alt="File icon"
             width={16}
             height={16}
