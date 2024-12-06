@@ -38,3 +38,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/four-card-feature-section-master
+/four-card-feature-section-master.zip
