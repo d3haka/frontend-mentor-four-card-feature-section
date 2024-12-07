@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: {
+          red: "var(--color-primary-red)",
+          cyan: "var(--color-primary-cyan)",
+          orange: "var(--color-primary-orange)",
+          blue: "var(--color-primary-blue)",
+        },
+        neutral: {
+          "very-dark-blue": "var(--color-neutral-very-dark-blue)",
+          "grayish-blue": "var(--color-neutral-grayish-blue)",
+          "very-light-gray": "var(--color-neutral-very-light-gray)",
+        },
       },
     },
   },
