@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
 import { twMerge } from "tailwind-merge";
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
    subsets: ["latin"],
    weight: ["200", "400", "600"],
-   // variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
    title: "Frontend Mentor | Four card feature section",
-   description: "Frontend Mentor | Four card feature section",
 };
 
 export default function RootLayout({
@@ -20,8 +18,10 @@ export default function RootLayout({
    children: React.ReactNode;
 }>) {
    return (
-      <html lang="en" className="text-[15px]">
-         <body className={twMerge(poppins.className, "antialiased")}>{children}</body>
+      <html lang="en">
+         <body className={twMerge(poppins.className, "leading-normal antialiased")}>
+            <main className="min-h-screen w-full">{children}</main>
+         </body>
       </html>
    );
 }
