@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import { twMerge } from "tailwind-merge";
 import { Poppins } from "next/font/google";
 
-export const poppins = Poppins({
+const poppins = Poppins({
    subsets: ["latin"],
    weight: ["200", "400", "600"],
 });
